@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Assignment 1 Q1</title>
+	<style>
+		table,
+		tr,
+		td {
+			border: 1px solid black;
+			text-align: center;
+			padding: 3px;
+		}
+	</style>
+</head>
+
+<body>
+	<table style="border-collapse: collapse; ">
+		<tr>
+			<td rowspan="2">Iteration number 0
+			<td>a</td>
+			<td> 0</td>
+			<td> b</td>
+			<td> 20</td>
+			<td> c</td>
+			<td> 10.0</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 2552</td>
+			<td> f(b)</td>
+			<td> -1448</td>
+			<td> f(c)</td>
+			<td> 552.0</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 1
+			<td>a</td>
+			<td> 10.0</td>
+			<td> b</td>
+			<td> 20</td>
+			<td> c</td>
+			<td> 15.0</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 552.0</td>
+			<td> f(b)</td>
+			<td> -1448</td>
+			<td> f(c)</td>
+			<td> -823.0</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 2
+			<td>a</td>
+			<td> 10.0</td>
+			<td> b</td>
+			<td> 15.0</td>
+			<td> c</td>
+			<td> 12.5</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 552.0</td>
+			<td> f(b)</td>
+			<td> -823.0</td>
+			<td> f(c)</td>
+			<td> -182.375</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 3
+			<td>a</td>
+			<td> 10.0</td>
+			<td> b</td>
+			<td> 12.5</td>
+			<td> c</td>
+			<td> 11.25</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 552.0</td>
+			<td> f(b)</td>
+			<td> -182.375</td>
+			<td> f(c)</td>
+			<td> 178.953125</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 4
+			<td>a</td>
+			<td> 11.25</td>
+			<td> b</td>
+			<td> 12.5</td>
+			<td> c</td>
+			<td> 11.875</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 178.953125</td>
+			<td> f(b)</td>
+			<td> -182.375</td>
+			<td> f(c)</td>
+			<td> -3.908203</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 5
+			<td>a</td>
+			<td> 11.25</td>
+			<td> b</td>
+			<td> 11.875</td>
+			<td> c</td>
+			<td> 11.5625</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 178.953125</td>
+			<td> f(b)</td>
+			<td> -3.908203</td>
+			<td> f(c)</td>
+			<td> 87.064697</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 6
+			<td>a</td>
+			<td> 11.5625</td>
+			<td> b</td>
+			<td> 11.875</td>
+			<td> c</td>
+			<td> 11.71875</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 87.064697</td>
+			<td> f(b)</td>
+			<td> -3.908203</td>
+			<td> f(c)</td>
+			<td> 41.452362</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 7
+			<td>a</td>
+			<td> 11.71875</td>
+			<td> b</td>
+			<td> 11.875</td>
+			<td> c</td>
+			<td> 11.796875</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 41.452362</td>
+			<td> f(b)</td>
+			<td> -3.908203</td>
+			<td> f(c)</td>
+			<td> 18.739178</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 8
+			<td>a</td>
+			<td> 11.796875</td>
+			<td> b</td>
+			<td> 11.875</td>
+			<td> c</td>
+			<td> 11.835938</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 18.739178</td>
+			<td> f(b)</td>
+			<td> -3.908203</td>
+			<td> f(c)</td>
+			<td> 7.406938</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 9
+			<td>a</td>
+			<td> 11.835938</td>
+			<td> b</td>
+			<td> 11.875</td>
+			<td> c</td>
+			<td> 11.855469</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 7.406938</td>
+			<td> f(b)</td>
+			<td> -3.908203</td>
+			<td> f(c)</td>
+			<td> 1.747244</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 10
+			<td>a</td>
+			<td> 11.855469</td>
+			<td> b</td>
+			<td> 11.875</td>
+			<td> c</td>
+			<td> 11.865234</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 1.747244</td>
+			<td> f(b)</td>
+			<td> -3.908203</td>
+			<td> f(c)</td>
+			<td> -1.080868</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 11
+			<td>a</td>
+			<td> 11.855469</td>
+			<td> b</td>
+			<td> 11.865234</td>
+			<td> c</td>
+			<td> 11.860352</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 1.747244</td>
+			<td> f(b)</td>
+			<td> -1.080868</td>
+			<td> f(c)</td>
+			<td> 0.33291</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 12
+			<td>a</td>
+			<td> 11.860352</td>
+			<td> b</td>
+			<td> 11.865234</td>
+			<td> c</td>
+			<td> 11.862793</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.33291</td>
+			<td> f(b)</td>
+			<td> -1.080868</td>
+			<td> f(c)</td>
+			<td> -0.374012</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 13
+			<td>a</td>
+			<td> 11.860352</td>
+			<td> b</td>
+			<td> 11.862793</td>
+			<td> c</td>
+			<td> 11.861573</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.33291</td>
+			<td> f(b)</td>
+			<td> -0.374012</td>
+			<td> f(c)</td>
+			<td> -0.020704</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 14
+			<td>a</td>
+			<td> 11.860352</td>
+			<td> b</td>
+			<td> 11.861573</td>
+			<td> c</td>
+			<td> 11.860962</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.33291</td>
+			<td> f(b)</td>
+			<td> -0.020704</td>
+			<td> f(c)</td>
+			<td> 0.156246</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 15
+			<td>a</td>
+			<td> 11.860962</td>
+			<td> b</td>
+			<td> 11.861573</td>
+			<td> c</td>
+			<td> 11.861268</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.156246</td>
+			<td> f(b)</td>
+			<td> -0.020704</td>
+			<td> f(c)</td>
+			<td> 0.067625</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 16
+			<td>a</td>
+			<td> 11.861268</td>
+			<td> b</td>
+			<td> 11.861573</td>
+			<td> c</td>
+			<td> 11.861421</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.067625</td>
+			<td> f(b)</td>
+			<td> -0.020704</td>
+			<td> f(c)</td>
+			<td> 0.023316</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 17
+			<td>a</td>
+			<td> 11.861421</td>
+			<td> b</td>
+			<td> 11.861573</td>
+			<td> c</td>
+			<td> 11.861497</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.023316</td>
+			<td> f(b)</td>
+			<td> -0.020704</td>
+			<td> f(c)</td>
+			<td> 0.001306</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 18
+			<td>a</td>
+			<td> 11.861497</td>
+			<td> b</td>
+			<td> 11.861573</td>
+			<td> c</td>
+			<td> 11.861535</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.001306</td>
+			<td> f(b)</td>
+			<td> -0.020704</td>
+			<td> f(c)</td>
+			<td> -0.009699</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 19
+			<td>a</td>
+			<td> 11.861497</td>
+			<td> b</td>
+			<td> 11.861535</td>
+			<td> c</td>
+			<td> 11.861516</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.001306</td>
+			<td> f(b)</td>
+			<td> -0.009699</td>
+			<td> f(c)</td>
+			<td> -0.004197</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 20
+			<td>a</td>
+			<td> 11.861497</td>
+			<td> b</td>
+			<td> 11.861516</td>
+			<td> c</td>
+			<td> 11.861507</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.001306</td>
+			<td> f(b)</td>
+			<td> -0.004197</td>
+			<td> f(c)</td>
+			<td> -0.00159</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 21
+			<td>a</td>
+			<td> 11.861497</td>
+			<td> b</td>
+			<td> 11.861507</td>
+			<td> c</td>
+			<td> 11.861502</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.001306</td>
+			<td> f(b)</td>
+			<td> -0.00159</td>
+			<td> f(c)</td>
+			<td> -0.000142</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 22
+			<td>a</td>
+			<td> 11.861497</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.8615</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.001306</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000437</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 23
+			<td>a</td>
+			<td> 11.8615</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.861501</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.000437</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000147</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 24
+			<td>a</td>
+			<td> 11.861501</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.861501</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.000147</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000147</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 25
+			<td>a</td>
+			<td> 11.861501</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.861501</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.000147</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000147</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 26
+			<td>a</td>
+			<td> 11.861501</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.861501</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.000147</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000147</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 27
+			<td>a</td>
+			<td> 11.861501</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.861501</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.000147</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000147</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 28
+			<td>a</td>
+			<td> 11.861501</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.861501</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.000147</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000147</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 29
+			<td>a</td>
+			<td> 11.861501</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.861501</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.000147</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000147</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Iteration number 30
+			<td>a</td>
+			<td> 11.861501</td>
+			<td> b</td>
+			<td> 11.861502</td>
+			<td> c</td>
+			<td> 11.861501</td>
+			</td>
+		<tr>
+			<td>f(a)</td>
+			<td> 0.000147</td>
+			<td> f(b)</td>
+			<td> -0.000142</td>
+			<td> f(c)</td>
+			<td> 0.000147</td>
+		</tr>
+	</table>
+</body>
+
+</html>
